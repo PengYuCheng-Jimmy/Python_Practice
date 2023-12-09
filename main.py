@@ -77,6 +77,7 @@ for 次數 in range(5):
     密碼 = input("請輸入密碼：")
     if 密碼 == 正確密碼:
         print("密碼正確")
+        break
     elif 密碼 != 正確密碼 and 次數 <4:
         print(f"""密碼錯誤
 您還剩下{4-次數}次機會""")
